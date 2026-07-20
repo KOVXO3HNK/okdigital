@@ -9,7 +9,7 @@ const content = {
     },
     hero: {
       title: "Сайты, автоматизация и SaaS для бизнеса",
-      lead: "Создаю современные сайты, веб-сервисы, AI-автоматизацию и SaaS-платформы — от идеи и прототипа до запуска.",
+      lead: "Проектирую и запускаю цифровые решения, которые помогают получать заявки, сокращать ручную работу и управлять бизнесом из одной системы",
       primary: "Обсудить проект",
       secondary: "Посмотреть возможности",
       trust: "Прямая работа с разработчиком · Понятные этапы · Исходный код передаётся заказчику",
@@ -167,7 +167,7 @@ const content = {
     },
     hero: {
       title: "Websites, automation and SaaS for business",
-      lead: "Modern websites, web services, AI automation and SaaS platforms — from idea and prototype to launch.",
+      lead: "I design and launch digital solutions that help generate inquiries, reduce manual work, and manage the business from one system.",
       primary: "Discuss a project",
       secondary: "Explore capabilities",
       trust: "Direct work with the developer · Clear stages · Source code transferred to the client",
@@ -325,7 +325,7 @@ const content = {
     },
     hero: {
       title: "เว็บไซต์ ระบบอัตโนมัติ และ SaaS สำหรับธุรกิจ",
-      lead: "สร้างเว็บไซต์ เว็บเซอร์วิส ระบบอัตโนมัติด้วย AI และแพลตฟอร์ม SaaS ตั้งแต่ไอเดียและต้นแบบจนถึงการเปิดใช้งาน",
+      lead: "ออกแบบและเปิดตัวโซลูชันดิจิทัลที่ช่วยเพิ่มคำขอจากลูกค้า ลดงานมือ และบริหารธุรกิจจากระบบเดียว",
       primary: "คุยเรื่องโปรเจกต์",
       secondary: "ดูความสามารถ",
       trust: "ทำงานตรงกับนักพัฒนา · ขั้นตอนชัดเจน · ส่งมอบซอร์สโค้ดให้ลูกค้า",
