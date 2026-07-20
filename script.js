@@ -497,6 +497,10 @@ function list(items) {
 
 function render(lang) {
   const data = content[lang];
+  if (!data) {
+    return render("en");
+  }
+
   document.documentElement.lang = lang;
   document.title = {
     en: "KOVXO3HNK DIGITAL · Web Development · Automation · AI · SaaS",
@@ -579,8 +583,12 @@ function setLanguage(lang, persist = false) {
   }
 
   if (persist) {
-    localStorage.setItem(languageStorageKey, lang);
-    localStorage.setItem(explicitLanguageStorageKey, "true");
+    try {
+      localStorage.setItem(languageStorageKey, lang);
+      localStorage.setItem(explicitLanguageStorageKey, "true");
+    } catch {
+      // Some embedded browsers restrict storage; language switching should still work.
+    }
   }
 
   langButtons.forEach((button) => {
@@ -643,6 +651,15 @@ langButtons.forEach((button) => {
   button.addEventListener("click", () => setLanguage(button.dataset.lang, true));
 });
 
-const savedLanguage = localStorage.getItem(languageStorageKey);
-const hasExplicitLanguage = localStorage.getItem(explicitLanguageStorageKey) === "true";
+let savedLanguage = null;
+let hasExplicitLanguage = false;
+
+try {
+  savedLanguage = localStorage.getItem(languageStorageKey);
+  hasExplicitLanguage = localStorage.getItem(explicitLanguageStorageKey) === "true";
+} catch {
+  savedLanguage = null;
+  hasExplicitLanguage = false;
+}
+
 setLanguage(hasExplicitLanguage ? savedLanguage : "en");
