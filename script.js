@@ -20,7 +20,7 @@ const content = {
     services: {
       eyebrow: "Services",
       title: "Шесть направлений, из которых собирается продукт",
-      text: "От лендинга до внутреннего портала, от заявки в CRM до полноценного SaaS MVP.",
+      text: "От лендинга и личного кабинета до AI-автоматизации и полноценного SaaS MVP.",
     },
     solutions: {
       eyebrow: "Solutions",
@@ -178,7 +178,7 @@ const content = {
     services: {
       eyebrow: "Services",
       title: "Six directions that become one product",
-      text: "From a landing page to an internal portal, from a CRM lead to a full SaaS MVP.",
+      text: "From landing pages and client portals to AI automation and a full SaaS MVP.",
     },
     solutions: {
       eyebrow: "Solutions",
@@ -336,7 +336,7 @@ const content = {
     services: {
       eyebrow: "Services",
       title: "หกด้านหลักที่รวมกันเป็นผลิตภัณฑ์",
-      text: "ตั้งแต่แลนดิ้งเพจจนถึงพอร์ทัลภายใน จากลีดใน CRM จนถึง SaaS MVP ที่พร้อมใช้งาน",
+      text: "ตั้งแต่แลนดิ้งเพจและพอร์ทัลลูกค้า ไปจนถึงระบบอัตโนมัติด้วย AI และ SaaS MVP ที่พร้อมใช้งาน",
     },
     solutions: {
       eyebrow: "Solutions",
