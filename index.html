@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="KOVXO3HNK DIGITAL creates websites, web services, automation, AI solutions and SaaS MVPs for business."
+    />
+    <title>KOVXO3HNK DIGITAL · Web Development · Automation · AI · SaaS</title>
+    <link rel="icon" href="./assets/mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="KOVXO3HNK DIGITAL">
+          <img src="./assets/mark.svg" alt="" width="34" height="34" />
+          <span>KOVXO3HNK DIGITAL</span>
+        </a>
+
+        <div class="nav-links" aria-label="Sections">
+          <a href="#services" data-i18n="nav.services">Services</a>
+          <a href="#solutions" data-i18n="nav.solutions">Solutions</a>
+          <a href="#projects" data-i18n="nav.projects">Projects</a>
+          <a href="#process" data-i18n="nav.process">Process</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </div>
+
+        <div class="nav-actions" aria-label="Language">
+          <button class="lang-btn is-active" type="button" data-lang="ru">RU</button>
+          <button class="lang-btn" type="button" data-lang="en">EN</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-wrap">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">WEB / AI / AUTOMATION / SAAS</p>
+          <h1 data-i18n="hero.title">Цифровые продукты для бизнеса</h1>
+          <p class="hero-lead" data-i18n="hero.lead">
+            Создаю современные сайты, веб-сервисы, AI-автоматизацию и SaaS-платформы — от идеи и прототипа до запуска.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact" data-i18n="hero.primary">Обсудить проект</a>
+            <a class="button button-secondary" href="#services" data-i18n="hero.secondary">Посмотреть возможности</a>
+          </div>
+
+          <p class="trust-line" data-i18n="hero.trust">
+            Прямая работа с разработчиком · Понятные этапы · Исходный код передаётся заказчику
+          </p>
+        </div>
+
+        <aside class="system-map reveal" aria-label="Digital product flow">
+          <div class="map-grid">
+            <div class="map-node node-website is-active" data-node="Website">
+              <span>Website</span>
+            </div>
+            <div class="map-node node-crm" data-node="CRM">
+              <span>CRM</span>
+            </div>
+            <div class="map-node node-automation" data-node="Automation">
+              <span>Automation</span>
+            </div>
+            <div class="map-node node-ai" data-node="AI">
+              <span>AI</span>
+            </div>
+            <div class="map-node node-dashboard" data-node="Dashboard">
+              <span>Dashboard</span>
+            </div>
+            <div class="map-node node-saas" data-node="SaaS">
+              <span>SaaS</span>
+            </div>
+          </div>
+          <div class="map-caption">
+            <span data-i18n="map.caption">От первой точки контакта до рабочей системы</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section-wrap section" id="services">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="services.eyebrow">Services</p>
+          <h2 data-i18n="services.title">Шесть направлений, из которых собирается продукт</h2>
+          <p data-i18n="services.text">
+            От лендинга до внутреннего портала, от заявки в CRM до полноценного SaaS MVP.
+          </p>
+        </div>
+        <div class="service-grid" id="serviceGrid" aria-live="polite"></div>
+      </section>
+
+      <section class="band" id="solutions">
+        <div class="section-wrap solutions-layout">
+          <div class="section-heading reveal">
+            <p class="eyebrow" data-i18n="solutions.eyebrow">Solutions</p>
+            <h2 data-i18n="solutions.title">Что можно автоматизировать или запустить</h2>
+          </div>
+          <div class="solution-list reveal" id="solutionList"></div>
+        </div>
+      </section>
+
+      <section class="section-wrap section packages-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="packages.eyebrow">Products</p>
+          <h2 data-i18n="packages.title">Три понятных формата работы</h2>
+          <p data-i18n="packages.text">
+            После короткого обсуждения вы получаете варианты реализации, сроки и фиксированную оценку первого этапа.
+          </p>
+        </div>
+        <div class="package-grid" id="packageGrid"></div>
+      </section>
+
+      <section class="section-wrap section" id="projects">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="projects.eyebrow">Projects</p>
+          <h2 data-i18n="projects.title">Основа для будущих SaaS-продуктов</h2>
+        </div>
+        <div class="project-grid" id="projectGrid"></div>
+      </section>
+
+      <section class="band process-band" id="process">
+        <div class="section-wrap">
+          <div class="section-heading reveal">
+            <p class="eyebrow" data-i18n="process.eyebrow">Process</p>
+            <h2 data-i18n="process.title">Как проходит работа</h2>
+          </div>
+          <div class="process-grid" id="processGrid"></div>
+        </div>
+      </section>
+
+      <section class="section-wrap contact-section" id="contact">
+        <div class="contact-panel reveal">
+          <div>
+            <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+            <h2 data-i18n="contact.title">Обсудим продукт, который должен заработать</h2>
+            <p data-i18n="contact.text">
+              Можно начать с сайта, автоматизации одного процесса или первой версии SaaS. Главное — понять задачу бизнеса и собрать первый рабочий этап.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="button button-primary" href="https://t.me/KOVXO3HNK" data-i18n="contact.telegram">Написать в Telegram</a>
+            <a class="button button-secondary" href="https://github.com/KOVXO3HNK" data-i18n="contact.github">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="section-wrap footer-inner">
+        <span>KOVXO3HNK DIGITAL</span>
+        <span>Web Development · Automation · AI · SaaS</span>
+      </div>
+    </footer>
+
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
