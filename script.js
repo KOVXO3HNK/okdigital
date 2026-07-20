@@ -1,11 +1,11 @@
 const content = {
   ru: {
     nav: {
-      services: "Services",
-      solutions: "Solutions",
-      projects: "Projects",
-      process: "Process",
-      contact: "Contact",
+      services: "Услуги",
+      solutions: "Решения",
+      projects: "Проекты",
+      process: "Процесс",
+      contact: "Контакты",
     },
     hero: {
       title: "Цифровые продукты для бизнеса",
