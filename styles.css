@@ -549,7 +549,19 @@ p {
 }
 
 .project-card {
-  min-height: 236px;
+  display: flex;
+  min-height: 348px;
+  flex-direction: column;
+}
+
+.project-status {
+  width: fit-content;
+  margin-top: auto;
+  padding-top: 22px;
+  color: var(--accent-3);
+  font-size: 0.78rem;
+  font-weight: 780;
+  letter-spacing: 0;
 }
 
 .process-band {

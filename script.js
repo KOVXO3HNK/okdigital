@@ -3,7 +3,7 @@ const content = {
     nav: {
       services: "Услуги",
       solutions: "Решения",
-      projects: "Проекты",
+      projects: "Топ-проекты",
       process: "Процесс",
       contact: "Контакты",
     },
@@ -32,8 +32,8 @@ const content = {
       text: "После короткого обсуждения вы получаете варианты реализации, сроки и фиксированную оценку первого этапа.",
     },
     projects: {
-      eyebrow: "Projects",
-      title: "Основа для будущих SaaS-продуктов",
+      eyebrow: "Топ-проекты",
+      title: "Продуктовые концепции с SaaS-потенциалом",
     },
     process: {
       eyebrow: "Process",
@@ -127,15 +127,24 @@ const content = {
     projectsList: [
       {
         title: "VillaOps",
-        text: "SaaS для управления виллами, бронированиями, задачами персонала и сервисными заявками.",
+        category: "Property Management SaaS",
+        status: "Product Concept",
+        text: "Цифровая операционная система для владельцев вилл и управляющих компаний: бронирования, обращения гостей, задачи персонала, обслуживание, расходы и отчётность в одном интерфейсе.",
+        items: ["Объекты и бронирования", "Заявки гостей и задачи", "Отчёты для владельцев"],
       },
       {
         title: "CarRentalOS",
-        text: "Операционная система для прокатов: парк, заявки, документы, оплаты, статусы и отчёты.",
+        category: "Fleet & Rental Management SaaS",
+        status: "MVP Architecture",
+        text: "Операционная платформа для компаний по аренде автомобилей: автопарк, бронирования, клиенты, договоры, платежи, обслуживание и управленческая отчётность.",
+        items: ["Календарь доступности", "Договоры и платежи", "Состояние, пробег и сервис"],
       },
       {
-        title: "ServiceDesk AI",
-        text: "AI-слой для обработки клиентских обращений, базы знаний и управленческих резюме.",
+        title: "NeoFab",
+        category: "Distributed Manufacturing Platform",
+        status: "Marketplace Architecture",
+        text: "Платформа распределённого производства, которая соединяет заказчиков с сетью независимых 3D-принтеров и мастерских и подбирает исполнителя по материалу, сроку, цене и географии.",
+        items: ["Загрузка и проверка 3D-файлов", "Распределение заказов", "Кабинеты клиента и партнёра"],
       },
     ],
     processList: [
@@ -161,7 +170,7 @@ const content = {
     nav: {
       services: "Services",
       solutions: "Solutions",
-      projects: "Projects",
+      projects: "Top Projects",
       process: "Process",
       contact: "Contact",
     },
@@ -190,8 +199,8 @@ const content = {
       text: "After a short discussion, you get implementation options, timing and a fixed estimate for the first stage.",
     },
     projects: {
-      eyebrow: "Projects",
-      title: "A base for future SaaS products",
+      eyebrow: "Top Projects",
+      title: "Product concepts with SaaS potential",
     },
     process: {
       eyebrow: "Process",
@@ -285,15 +294,24 @@ const content = {
     projectsList: [
       {
         title: "VillaOps",
-        text: "SaaS for villas, bookings, staff tasks and service requests.",
+        category: "Property Management SaaS",
+        status: "Product Concept",
+        text: "A digital operating system for villa owners and property managers: bookings, guest requests, staff tasks, maintenance, expenses and owner reporting in one interface.",
+        items: ["Properties and bookings", "Guest requests and tasks", "Owner reports"],
       },
       {
         title: "CarRentalOS",
-        text: "An operating system for rentals: fleet, leads, documents, payments, statuses and reports.",
+        category: "Fleet & Rental Management SaaS",
+        status: "MVP Architecture",
+        text: "An operating platform for car rental companies: fleet, bookings, clients, contracts, payments, maintenance and management reporting.",
+        items: ["Availability calendar", "Contracts and payments", "Condition, mileage and service"],
       },
       {
-        title: "ServiceDesk AI",
-        text: "An AI layer for client requests, knowledge bases and management summaries.",
+        title: "NeoFab",
+        category: "Distributed Manufacturing Platform",
+        status: "Marketplace Architecture",
+        text: "A distributed manufacturing platform connecting customers with independent 3D printers and workshops, matching orders by material, technology, timing, cost and location.",
+        items: ["3D file upload and checks", "Order distribution", "Customer and partner portals"],
       },
     ],
     processList: [
@@ -319,7 +337,7 @@ const content = {
     nav: {
       services: "บริการ",
       solutions: "โซลูชัน",
-      projects: "โปรเจกต์",
+      projects: "โปรเจกต์เด่น",
       process: "ขั้นตอน",
       contact: "ติดต่อ",
     },
@@ -348,8 +366,8 @@ const content = {
       text: "หลังจากพูดคุยสั้น ๆ คุณจะได้รับแนวทางดำเนินงาน ระยะเวลา และการประเมินราคาคงที่สำหรับเฟสแรก",
     },
     projects: {
-      eyebrow: "Projects",
-      title: "ฐานสำหรับ SaaS โปรดักต์ในอนาคต",
+      eyebrow: "โปรเจกต์เด่น",
+      title: "คอนเซปต์ผลิตภัณฑ์ที่ต่อยอดเป็น SaaS ได้",
     },
     process: {
       eyebrow: "Process",
@@ -443,15 +461,24 @@ const content = {
     projectsList: [
       {
         title: "VillaOps",
-        text: "SaaS สำหรับวิลล่า การจอง งานทีมงาน และคำขอบริการ",
+        category: "Property Management SaaS",
+        status: "Product Concept",
+        text: "ระบบปฏิบัติการดิจิทัลสำหรับเจ้าของวิลล่าและบริษัทจัดการอสังหาริมทรัพย์ รวมการจอง คำขอจากแขก งานทีมงาน การซ่อมบำรุง ค่าใช้จ่าย และรายงานไว้ในอินเทอร์เฟซเดียว",
+        items: ["ทรัพย์สินและการจอง", "คำขอจากแขกและงานทีม", "รายงานสำหรับเจ้าของ"],
       },
       {
         title: "CarRentalOS",
-        text: "ระบบปฏิบัติการสำหรับรถเช่า: Fleet, Leads, Documents, Payments, Statuses และ Reports",
+        category: "Fleet & Rental Management SaaS",
+        status: "MVP Architecture",
+        text: "แพลตฟอร์มปฏิบัติการสำหรับธุรกิจรถเช่า รวมฟลีต การจอง ลูกค้า สัญญา การชำระเงิน การบำรุงรักษา และรายงานบริหาร",
+        items: ["ปฏิทินความพร้อมของรถ", "สัญญาและการชำระเงิน", "สภาพรถ เลขไมล์ และเซอร์วิส"],
       },
       {
-        title: "ServiceDesk AI",
-        text: "ชั้น AI สำหรับคำขอลูกค้า ฐานความรู้ และสรุปสำหรับผู้บริหาร",
+        title: "NeoFab",
+        category: "Distributed Manufacturing Platform",
+        status: "Marketplace Architecture",
+        text: "แพลตฟอร์มการผลิตแบบกระจายที่เชื่อมลูกค้ากับเครือข่ายเครื่องพิมพ์ 3D และเวิร์กช็อปอิสระ พร้อมจับคู่งานตามวัสดุ เทคโนโลยี เวลา ต้นทุน และพื้นที่",
+        items: ["อัปโหลดและตรวจไฟล์ 3D", "กระจายคำสั่งผลิต", "พอร์ทัลลูกค้าและพาร์ทเนอร์"],
       },
     ],
     processList: [
@@ -554,9 +581,11 @@ function render(lang) {
     .map(
       (project) => `
         <article class="card project-card reveal">
-          <div class="card-kicker">SAAS</div>
+          <div class="card-kicker">${project.category}</div>
           <h3>${project.title}</h3>
           <p>${project.text}</p>
+          <ul class="package-list">${list(project.items)}</ul>
+          <div class="project-status">${project.status}</div>
         </article>
       `,
     )
