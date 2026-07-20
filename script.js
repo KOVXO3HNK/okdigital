@@ -483,8 +483,8 @@ const processGrid = document.querySelector("#processGrid");
 const langButtons = document.querySelectorAll(".lang-btn");
 const translatable = document.querySelectorAll("[data-i18n]");
 const mapNodes = [...document.querySelectorAll(".map-node")];
-const languageStorageKey = "kovxo3hnk-lang";
-const explicitLanguageStorageKey = "kovxo3hnk-lang-explicit";
+const languageStorageKey = "okdigital-lang";
+const explicitLanguageStorageKey = "okdigital-lang-explicit";
 const supportedLanguages = ["en", "ru", "th"];
 
 function getByPath(source, path) {
@@ -503,9 +503,9 @@ function render(lang) {
 
   document.documentElement.lang = lang;
   document.title = {
-    en: "KOVXO3HNK DIGITAL · Web Development · Automation · AI · SaaS",
-    ru: "KOVXO3HNK DIGITAL · Сайты · Автоматизация · AI · SaaS",
-    th: "KOVXO3HNK DIGITAL · เว็บไซต์ · Automation · AI · SaaS",
+    en: "OK DIGITAL · Web Development · Automation · AI · SaaS",
+    ru: "OK DIGITAL · Сайты · Автоматизация · AI · SaaS",
+    th: "OK DIGITAL · เว็บไซต์ · Automation · AI · SaaS",
   }[lang];
 
   translatable.forEach((element) => {
