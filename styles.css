@@ -503,7 +503,15 @@ p {
   display: grid;
   grid-template-columns: 0.92fr 1.08fr;
   gap: 48px;
+}
+
+.solutions-combined {
   padding: 76px 0;
+}
+
+.package-heading {
+  margin-top: 56px;
+  max-width: 760px;
 }
 
 .solution-list {
@@ -525,6 +533,7 @@ p {
 }
 
 .package-grid {
+  margin-top: 28px;
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 

@@ -2,7 +2,7 @@ const content = {
   ru: {
     nav: {
       services: "Услуги",
-      solutions: "Решения",
+      solutions: "Решения и продукты",
       projects: "Топ-проекты",
       process: "Процесс",
       contact: "Контакты",
@@ -18,16 +18,16 @@ const content = {
       caption: "От первой точки контакта до рабочей системы",
     },
     services: {
-      eyebrow: "Services",
+      eyebrow: "Услуги",
       title: "Шесть направлений, из которых собирается продукт",
       text: "От лендинга и личного кабинета до AI-автоматизации и полноценного SaaS MVP.",
     },
     solutions: {
-      eyebrow: "Solutions",
+      eyebrow: "Решения и продукты",
       title: "Что можно автоматизировать или запустить",
     },
     packages: {
-      eyebrow: "Products",
+      eyebrow: "Продукты",
       title: "Три понятных формата работы",
       text: "После короткого обсуждения вы получаете варианты реализации, сроки и фиксированную оценку первого этапа.",
     },
@@ -36,11 +36,11 @@ const content = {
       title: "Продуктовые концепции с SaaS-потенциалом",
     },
     process: {
-      eyebrow: "Process",
+      eyebrow: "Процесс",
       title: "Как проходит работа",
     },
     contact: {
-      eyebrow: "Contact",
+      eyebrow: "Контакты",
       title: "Обсудим продукт, который должен заработать",
       text: "Можно начать с сайта, автоматизации одного процесса или первой версии SaaS. Главное — понять задачу бизнеса и собрать первый рабочий этап.",
       telegram: "Написать в Telegram",
@@ -169,7 +169,7 @@ const content = {
   en: {
     nav: {
       services: "Services",
-      solutions: "Solutions",
+      solutions: "Solutions & Products",
       projects: "Top Projects",
       process: "Process",
       contact: "Contact",
@@ -190,7 +190,7 @@ const content = {
       text: "From landing pages and client portals to AI automation and a full SaaS MVP.",
     },
     solutions: {
-      eyebrow: "Solutions",
+      eyebrow: "Solutions & Products",
       title: "What can be automated or launched",
     },
     packages: {
@@ -336,7 +336,7 @@ const content = {
   th: {
     nav: {
       services: "บริการ",
-      solutions: "โซลูชัน",
+      solutions: "โซลูชันและผลิตภัณฑ์",
       projects: "โปรเจกต์เด่น",
       process: "ขั้นตอน",
       contact: "ติดต่อ",
@@ -352,16 +352,16 @@ const content = {
       caption: "จากจุดติดต่อแรกจนถึงระบบที่ใช้งานได้จริง",
     },
     services: {
-      eyebrow: "Services",
+      eyebrow: "บริการ",
       title: "หกด้านหลักที่รวมกันเป็นผลิตภัณฑ์",
       text: "ตั้งแต่แลนดิ้งเพจและพอร์ทัลลูกค้า ไปจนถึงระบบอัตโนมัติด้วย AI และ SaaS MVP ที่พร้อมใช้งาน",
     },
     solutions: {
-      eyebrow: "Solutions",
+      eyebrow: "โซลูชันและผลิตภัณฑ์",
       title: "สิ่งที่สามารถทำให้เป็นระบบอัตโนมัติหรือเปิดตัวได้",
     },
     packages: {
-      eyebrow: "Products",
+      eyebrow: "ผลิตภัณฑ์",
       title: "สามรูปแบบการเริ่มงานที่ชัดเจน",
       text: "หลังจากพูดคุยสั้น ๆ คุณจะได้รับแนวทางดำเนินงาน ระยะเวลา และการประเมินราคาคงที่สำหรับเฟสแรก",
     },
@@ -370,11 +370,11 @@ const content = {
       title: "คอนเซปต์ผลิตภัณฑ์ที่ต่อยอดเป็น SaaS ได้",
     },
     process: {
-      eyebrow: "Process",
+      eyebrow: "ขั้นตอน",
       title: "ขั้นตอนการทำงาน",
     },
     contact: {
-      eyebrow: "Contact",
+      eyebrow: "ติดต่อ",
       title: "มาคุยกันเรื่องผลิตภัณฑ์ที่ต้องใช้งานได้จริง",
       text: "เริ่มได้จากเว็บไซต์ การทำงานอัตโนมัติหนึ่งกระบวนการ หรือ SaaS เวอร์ชันแรก สิ่งสำคัญคือเข้าใจโจทย์ธุรกิจและปล่อยเฟสแรกที่ใช้ได้จริง",
       telegram: "ส่งข้อความทาง Telegram",
