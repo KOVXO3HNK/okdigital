@@ -8,7 +8,7 @@ const content = {
       contact: "Контакты",
     },
     hero: {
-      title: "Цифровые продукты для бизнеса",
+      title: "Сайты, автоматизация и SaaS для бизнеса",
       lead: "Создаю современные сайты, веб-сервисы, AI-автоматизацию и SaaS-платформы — от идеи и прототипа до запуска.",
       primary: "Обсудить проект",
       secondary: "Посмотреть возможности",
@@ -166,7 +166,7 @@ const content = {
       contact: "Contact",
     },
     hero: {
-      title: "Digital products for business",
+      title: "Websites, automation and SaaS for business",
       lead: "Modern websites, web services, AI automation and SaaS platforms — from idea and prototype to launch.",
       primary: "Discuss a project",
       secondary: "Explore capabilities",
@@ -324,7 +324,7 @@ const content = {
       contact: "ติดต่อ",
     },
     hero: {
-      title: "ดิจิทัลโปรดักต์สำหรับธุรกิจ",
+      title: "เว็บไซต์ ระบบอัตโนมัติ และ SaaS สำหรับธุรกิจ",
       lead: "สร้างเว็บไซต์ เว็บเซอร์วิส ระบบอัตโนมัติด้วย AI และแพลตฟอร์ม SaaS ตั้งแต่ไอเดียและต้นแบบจนถึงการเปิดใช้งาน",
       primary: "คุยเรื่องโปรเจกต์",
       secondary: "ดูความสามารถ",
